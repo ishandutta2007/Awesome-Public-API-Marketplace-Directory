@@ -9,7 +9,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
 <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Public-API-Marketplace-Directory/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Public-API-Marketplace-Directory?style=social" alt="GitHub stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Public-API-Marketplace-Directory/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Public-API-Marketplace-Directory?style=social" alt="GitHub_Stars" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Public-API-Marketplace-Directory/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Public-API-Marketplace-Directory?style=social" alt="GitHub forks" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Public-API-Marketplace-Directory/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -96,25 +96,25 @@ Commercial, cloud-hosted Public API Marketplace and Directory platforms. Sorted 
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Public API Marketplace and Directory tools. Sorted by GitHub stars (descending).
+Self-hosted, community-driven Public API Marketplace and Directory tools. Sorted by GitHub_Stars (descending).
 
-| Project | Stars | Stack | License | Description |
+| Project | GitHub_Stars | Stack | License | Description |
 |:---|:---|:---|:---|:---|
-| **[public-apis/public-apis](https://github.com/public-apis/public-apis)** | [![GitHub stars](https://img.shields.io/github/stars/public-apis/public-apis?style=social&color=white)](https://github.com/public-apis/public-apis/stargazers) | Markdown / Python | MIT | The definitive collective list of free public APIs for software developers, categorizing thousands of endpoints across 50+ topics. |
-| **[public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists)** | [![GitHub stars](https://img.shields.io/github/stars/public-api-lists/public-api-lists?style=social&color=white)](https://github.com/public-api-lists/public-api-lists/stargazers) | TypeScript / JSON | MIT | Searchable, community-maintained list of free public APIs complete with an active, free-to-query JSON API layer. |
-| **[hiteshchoudhary/apihub](https://github.com/hiteshchoudhary/apihub)** | [![GitHub stars](https://img.shields.io/github/stars/hiteshchoudhary/apihub?style=social&color=white)](https://github.com/hiteshchoudhary/apihub/stargazers) | JavaScript / Node.js | MIT | An open-source, full-featured public API hub with integrated mock backend endpoints built for testing and frontend development. |
-| **[marcelscruz/public-apis](https://github.com/marcelscruz/public-apis)** | [![GitHub stars](https://img.shields.io/github/stars/marcelscruz/public-apis?style=social&color=white)](https://github.com/marcelscruz/public-apis/stargazers) | TypeScript / React / Next.js | MIT | A modern, collaborative web directory and interactive UI of public APIs with instant search, category filtering, and direct links. |
-| **[APIs-guru/openapi-directory](https://github.com/APIs-guru/openapi-directory)** | [![GitHub stars](https://img.shields.io/github/stars/APIs-guru/openapi-directory?style=social&color=white)](https://github.com/APIs-guru/openapi-directory/stargazers) | JavaScript / YAML / JSON | CC0-1.0 | Machine-readable Wikipedia for Web APIs containing 2,500+ verified REST API definitions in OpenAPI 2.0/3.x format. |
-| **[apioo/fusio](https://github.com/apioo/fusio)** | [![GitHub stars](https://img.shields.io/github/stars/apioo/fusio?style=social&color=white)](https://github.com/apioo/fusio/stargazers) | PHP / TypeScript | AGPL-3.0 | Self-hosted open-source API management platform and gateway with an automated developer portal, monetization tiers, and subscription handling. |
-| **[Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry)** | [![GitHub stars](https://img.shields.io/github/stars/Apicurio/apicurio-registry?style=social&color=white)](https://github.com/Apicurio/apicurio-registry/stargazers) | Java / Quarkus / React | Apache-2.0 | Production-grade schema and API registry supporting OpenAPI, AsyncAPI, GraphQL, and Protobuf specifications with search and governance. |
-| **[apis-json/api-json](https://github.com/apis-json/api-json)** | [![GitHub stars](https://img.shields.io/github/stars/apis-json/api-json?style=social&color=white)](https://github.com/apis-json/api-json/stargazers) | JSON / Schema | CC-BY-SA-4.0 | An open machine-readable API discovery format and specification ("sitemap for APIs") powering federated discovery engines like APIs.io. |
-| **[dukex/api-hub](https://github.com/dukex/api-hub)** | [![GitHub stars](https://img.shields.io/github/stars/dukex/api-hub?style=social&color=white)](https://github.com/dukex/api-hub/stargazers) | TypeScript / Next.js / Docker | MIT | Simple OpenAPI discovery portal creating an elegant API catalog from OpenAPI specs with interactive Swagger UI and AI summaries. |
-| **[DreadpiratePickles/dopeforge](https://github.com/DreadpiratePickles/dopeforge)** | [![GitHub stars](https://img.shields.io/github/stars/DreadpiratePickles/dopeforge?style=social&color=white)](https://github.com/DreadpiratePickles/dopeforge/stargazers) | Python / MCP | MIT | Unified registry of 6,600+ public APIs and MCP servers for AI agents (Claude, Cursor) with nightly CI live checks and executable blueprints. |
+| **[public-apis/public-apis](https://github.com/public-apis/public-apis)** | [![GitHub_Stars](https://img.shields.io/github/stars/public-apis/public-apis?style=social&color=white)](https://github.com/public-apis/public-apis/stargazers) | Markdown / Python | MIT | The definitive collective list of free public APIs for software developers, categorizing thousands of endpoints across 50+ topics. |
+| **[public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists)** | [![GitHub_Stars](https://img.shields.io/github/stars/public-api-lists/public-api-lists?style=social&color=white)](https://github.com/public-api-lists/public-api-lists/stargazers) | TypeScript / JSON | MIT | Searchable, community-maintained list of free public APIs complete with an active, free-to-query JSON API layer. |
+| **[hiteshchoudhary/apihub](https://github.com/hiteshchoudhary/apihub)** | [![GitHub_Stars](https://img.shields.io/github/stars/hiteshchoudhary/apihub?style=social&color=white)](https://github.com/hiteshchoudhary/apihub/stargazers) | JavaScript / Node.js | MIT | An open-source, full-featured public API hub with integrated mock backend endpoints built for testing and frontend development. |
+| **[marcelscruz/public-apis](https://github.com/marcelscruz/public-apis)** | [![GitHub_Stars](https://img.shields.io/github/stars/marcelscruz/public-apis?style=social&color=white)](https://github.com/marcelscruz/public-apis/stargazers) | TypeScript / React / Next.js | MIT | A modern, collaborative web directory and interactive UI of public APIs with instant search, category filtering, and direct links. |
+| **[APIs-guru/openapi-directory](https://github.com/APIs-guru/openapi-directory)** | [![GitHub_Stars](https://img.shields.io/github/stars/APIs-guru/openapi-directory?style=social&color=white)](https://github.com/APIs-guru/openapi-directory/stargazers) | JavaScript / YAML / JSON | CC0-1.0 | Machine-readable Wikipedia for Web APIs containing 2,500+ verified REST API definitions in OpenAPI 2.0/3.x format. |
+| **[apioo/fusio](https://github.com/apioo/fusio)** | [![GitHub_Stars](https://img.shields.io/github/stars/apioo/fusio?style=social&color=white)](https://github.com/apioo/fusio/stargazers) | PHP / TypeScript | AGPL-3.0 | Self-hosted open-source API management platform and gateway with an automated developer portal, monetization tiers, and subscription handling. |
+| **[Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry)** | [![GitHub_Stars](https://img.shields.io/github/stars/Apicurio/apicurio-registry?style=social&color=white)](https://github.com/Apicurio/apicurio-registry/stargazers) | Java / Quarkus / React | Apache-2.0 | Production-grade schema and API registry supporting OpenAPI, AsyncAPI, GraphQL, and Protobuf specifications with search and governance. |
+| **[apis-json/api-json](https://github.com/apis-json/api-json)** | [![GitHub_Stars](https://img.shields.io/github/stars/apis-json/api-json?style=social&color=white)](https://github.com/apis-json/api-json/stargazers) | JSON / Schema | CC-BY-SA-4.0 | An open machine-readable API discovery format and specification ("sitemap for APIs") powering federated discovery engines like APIs.io. |
+| **[dukex/api-hub](https://github.com/dukex/api-hub)** | [![GitHub_Stars](https://img.shields.io/github/stars/dukex/api-hub?style=social&color=white)](https://github.com/dukex/api-hub/stargazers) | TypeScript / Next.js / Docker | MIT | Simple OpenAPI discovery portal creating an elegant API catalog from OpenAPI specs with interactive Swagger UI and AI summaries. |
+| **[DreadpiratePickles/dopeforge](https://github.com/DreadpiratePickles/dopeforge)** | [![GitHub_Stars](https://img.shields.io/github/stars/DreadpiratePickles/dopeforge?style=social&color=white)](https://github.com/DreadpiratePickles/dopeforge/stargazers) | Python / MCP | MIT | Unified registry of 6,600+ public APIs and MCP servers for AI agents (Claude, Cursor) with nightly CI live checks and executable blueprints. |
 
 ---
 
 ### Public APIs (public-apis)
-[![GitHub stars](https://img.shields.io/github/stars/public-apis/public-apis?style=social&color=white)](https://github.com/public-apis/public-apis/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/public-apis/public-apis?style=social&color=white)](https://github.com/public-apis/public-apis/stargazers)  
 - 🛠️ **Stack:** Markdown / GitHub | 📄 **License:** MIT  
 - 🔗 **Repository:** [public-apis/public-apis](https://github.com/public-apis/public-apis)  
 The **public-apis** repository is the undisputed gold standard of free public API lists, organized meticulously across dozens of categories (Animals, Blockchain, Cryptography, Development, Finance, Health, Machine Learning, News, Weather, and more). It catalogs API names, descriptions, authentication requirements (apiKey, OAuth, or None), HTTPS support, and CORS availability. Listings adhere to strict submission standards, requiring open or free tiers.
@@ -124,7 +124,7 @@ The **public-apis** repository is the undisputed gold standard of free public AP
 ---
 
 ### Public API Lists (public-api-lists)
-[![GitHub stars](https://img.shields.io/github/stars/public-api-lists/public-api-lists?style=social&color=white)](https://github.com/public-api-lists/public-api-lists/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/public-api-lists/public-api-lists?style=social&color=white)](https://github.com/public-api-lists/public-api-lists/stargazers)  
 - 🛠️ **Stack:** TypeScript / JSON | 📄 **License:** MIT  
 - 🔗 **Repository:** [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists)  
 An actively maintained, community-driven directory indexing thousands of free public web APIs. Unlike traditional static markdown files, public-api-lists provides a live, searchable web interface and a free public JSON API endpoint, enabling programmatic retrieval and integration into custom developer portals and bots.
@@ -134,7 +134,7 @@ An actively maintained, community-driven directory indexing thousands of free pu
 ---
 
 ### API Hub (hiteshchoudhary)
-[![GitHub stars](https://img.shields.io/github/stars/hiteshchoudhary/apihub?style=social&color=white)](https://github.com/hiteshchoudhary/apihub/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/hiteshchoudhary/apihub?style=social&color=white)](https://github.com/hiteshchoudhary/apihub/stargazers)  
 - 🛠️ **Stack:** JavaScript / Node.js / Express | 📄 **License:** MIT  
 - 🔗 **Repository:** [hiteshchoudhary/apihub](https://github.com/hiteshchoudhary/apihub)  
 API Hub is a comprehensive open-source API marketplace and sandbox platform created to help frontend, mobile, and full-stack developers master API integration. It offers live endpoints for authentication, e-commerce products, social media feeds, chat messages, and quotes with instant JSON responses and full Swagger documentation.
@@ -144,7 +144,7 @@ API Hub is a comprehensive open-source API marketplace and sandbox platform crea
 ---
 
 ### Public APIs (marcelscruz)
-[![GitHub stars](https://img.shields.io/github/stars/marcelscruz/public-apis?style=social&color=white)](https://github.com/marcelscruz/public-apis/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/marcelscruz/public-apis?style=social&color=white)](https://github.com/marcelscruz/public-apis/stargazers)  
 - 🛠️ **Stack:** TypeScript / React / Next.js / Tailwind CSS | 📄 **License:** MIT  
 - 🔗 **Repository:** [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis)  
 A high-performance, modern open-source web application showcasing public APIs with an intuitive, aesthetic user interface. Features responsive instant search, tag-based filtering by category, CORS and HTTPS indicators, and one-click access to official developer documentation.
@@ -154,7 +154,7 @@ A high-performance, modern open-source web application showcasing public APIs wi
 ---
 
 ### APIs.guru OpenAPI Directory
-[![GitHub stars](https://img.shields.io/github/stars/APIs-guru/openapi-directory?style=social&color=white)](https://github.com/APIs-guru/openapi-directory/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/APIs-guru/openapi-directory?style=social&color=white)](https://github.com/APIs-guru/openapi-directory/stargazers)  
 - 🛠️ **Stack:** JavaScript / YAML / JSON | 📄 **License:** CC0-1.0 (Public Domain)  
 - 🔗 **Repository:** [APIs-guru/openapi-directory](https://github.com/APIs-guru/openapi-directory)  
 The **openapi-directory** repository is the open-source machine-readable data layer behind APIs.guru, containing thousands of REST API definitions in OpenAPI 2.0 and 3.x format. Community-driven and automatically validated via CI pipelines, it is consumed by HTTP Toolkit, Apideck, Microsoft Kiota, and OpenAPI generator tools worldwide.
@@ -164,7 +164,7 @@ The **openapi-directory** repository is the open-source machine-readable data la
 ---
 
 ### Fusio
-[![GitHub stars](https://img.shields.io/github/stars/apioo/fusio?style=social&color=white)](https://github.com/apioo/fusio/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/apioo/fusio?style=social&color=white)](https://github.com/apioo/fusio/stargazers)  
 - 🛠️ **Stack:** PHP / TypeScript / Angular | 📄 **License:** AGPL-3.0  
 - 🔗 **Repository:** [apioo/fusio](https://github.com/apioo/fusio)  
 Fusio is an open-source API management system and gateway that lets you build, manage, and monetize REST APIs. It provides an automated, self-hosted developer portal and marketplace where external developers can register, obtain API keys, subscribe to rate-limited plans, purchase API credits via Stripe, and browse interactive API documentation.
@@ -174,7 +174,7 @@ Fusio is an open-source API management system and gateway that lets you build, m
 ---
 
 ### Apicurio Registry
-[![GitHub stars](https://img.shields.io/github/stars/Apicurio/apicurio-registry?style=social&color=white)](https://github.com/Apicurio/apicurio-registry/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/Apicurio/apicurio-registry?style=social&color=white)](https://github.com/Apicurio/apicurio-registry/stargazers)  
 - 🛠️ **Stack:** Java / Quarkus / TypeScript / React | 📄 **License:** Apache-2.0  
 - 🔗 **Repository:** [Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry)  
 Apicurio Registry is a vendor-neutral, enterprise-grade schema and API registry. It stores, catalogs, and governs OpenAPI, AsyncAPI, GraphQL, Apache Avro, Google Protobuf, and JSON Schemas with built-in version control, metadata search, artifact rules enforcement, and REST API interfaces.
@@ -184,7 +184,7 @@ Apicurio Registry is a vendor-neutral, enterprise-grade schema and API registry.
 ---
 
 ### APIs.json Specification
-[![GitHub stars](https://img.shields.io/github/stars/apis-json/api-json?style=social&color=white)](https://github.com/apis-json/api-json/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/apis-json/api-json?style=social&color=white)](https://github.com/apis-json/api-json/stargazers)  
 - 🛠️ **Stack:** JSON / Schema | 📄 **License:** CC-BY-SA-4.0  
 - 🔗 **Repository:** [apis-json/api-json](https://github.com/apis-json/api-json)  
 APIs.json provides an open discovery specification that acts as a `sitemap.xml` for an organization's API ecosystem. Rather than describing single endpoints, an `apis.json` document indexes an organization's APIs, documentation portals, OpenAPI contracts, SDKs, terms of service, and pricing tiers. It is the core open standard powering the **APIs.io** federated API search engine.
@@ -194,7 +194,7 @@ APIs.json provides an open discovery specification that acts as a `sitemap.xml` 
 ---
 
 ### API Hub (dukex)
-[![GitHub stars](https://img.shields.io/github/stars/dukex/api-hub?style=social&color=white)](https://github.com/dukex/api-hub/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/dukex/api-hub?style=social&color=white)](https://github.com/dukex/api-hub/stargazers)  
 - 🛠️ **Stack:** TypeScript / Next.js / Docker | 📄 **License:** MIT  
 - 🔗 **Repository:** [dukex/api-hub](https://github.com/dukex/api-hub)  
 API Hub is a lightweight, self-hosted OpenAPI discovery portal. By configuring a simple `specs/apis.json` file listing OpenAPI URLs, API Hub automatically builds a searchable web directory featuring team tags, interactive Swagger UI documentation, and AI-powered API summaries via Google Gemini.
@@ -204,7 +204,7 @@ API Hub is a lightweight, self-hosted OpenAPI discovery portal. By configuring a
 ---
 
 ### DopeForge
-[![GitHub stars](https://img.shields.io/github/stars/DreadpiratePickles/dopeforge?style=social&color=white)](https://github.com/DreadpiratePickles/dopeforge/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/DreadpiratePickles/dopeforge?style=social&color=white)](https://github.com/DreadpiratePickles/dopeforge/stargazers)  
 - 🛠️ **Stack:** Python / MCP | 📄 **License:** MIT  
 - 🔗 **Repository:** [DreadpiratePickles/dopeforge](https://github.com/DreadpiratePickles/dopeforge)  
 DopeForge is an open-source registry built specifically for AI agents (Claude Code, Cursor, Windsurf). It consolidates major GitHub catalogs into a live-verified database of 6,623 entries. Features include verified callable blueprints (base URL, endpoints, parameters), nightly CI liveness verification with dead-endpoint pruning, and an embedded Model Context Protocol (MCP) server for safe, bounded agent API calling.
@@ -245,7 +245,7 @@ DopeForge is an open-source registry built specifically for AI agents (Claude Co
 Contributions are welcome! If you know of an open-source Public API Marketplace, Directory, or Catalog tool that should be listed here:
 
 1. 🍴 Fork this repository.
-2. ✍️ Add your project following the table and detailed section formats (Project name, GitHub star badge, Stack, License, description, and key features).
+2. ✍️ Add your project following the table and detailed section formats (Project name, GitHub Stars_Badge, Stack, License, description, and key features).
 3. 🧪 Ensure the project is actively maintained with valid open-source licensing.
 4. 🚀 Submit a Pull Request with a brief explanation of why the tool stands out.
 

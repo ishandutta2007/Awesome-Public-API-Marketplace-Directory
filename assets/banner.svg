@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" opacity="0.65"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .pulse-circle {
+      animation: pulse 4s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.25; }
+      100% { transform: scale(1.18); opacity: 0.45; }
+    }
+    .float-node {
+      animation: float 6s ease-in-out infinite alternate;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-10px); }
+    }
+    .flow-line {
+      stroke-dasharray: 8 6;
+      animation: dash 25s linear infinite;
+    }
+    @keyframes dash {
+      to {
+        stroke-dashoffset: -1000;
+      }
+    }
+    .pill-badge {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      fill: #94a3b8;
+    }
+    .badge-icon {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+    }
+  </style>
+
+  <!-- Deep Canvas Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+
+  <!-- Ambient Pulsing Glow Orbs (Background layer) -->
+  <g class="pulse-circle" style="transform-origin: 200px 180px;">
+    <circle cx="200" cy="180" r="160" fill="url(#accentGlow)" filter="url(#glow)"/>
+  </g>
+  <g class="pulse-circle" style="transform-origin: 1000px 180px; animation-delay: -2s;">
+    <circle cx="1000" cy="180" r="150" fill="#6366f1" opacity="0.12" filter="url(#glow)"/>
+  </g>
+
+  <!-- Subtle Dynamic Background Flow Network (Does NOT obstruct text) -->
+  <g stroke="#334155" stroke-width="1.2" fill="none" opacity="0.45">
+    <path d="M 60 90 Q 300 30 600 70 T 1140 100" class="flow-line"/>
+    <path d="M 60 270 Q 300 330 600 290 T 1140 260" class="flow-line"/>
+    <path d="M 100 180 C 250 120 400 240 600 180 S 950 120 1100 180" stroke="#38bdf8" stroke-width="1" opacity="0.2" class="flow-line"/>
+  </g>
+
+  <!-- Floating Dynamic API Nodes Left -->
+  <g class="float-node" style="transform-origin: 140px 120px;">
+    <rect x="70" y="80" width="130" height="34" rx="17" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.85"/>
+    <circle cx="88" cy="97" r="4" fill="#38bdf8"/>
+    <text x="100" y="101" fill="#e2e8f0" class="pill-badge">GET /api/v1</text>
+  </g>
+  <g class="float-node" style="transform-origin: 130px 240px; animation-delay: -3s;">
+    <rect x="60" y="225" width="145" height="34" rx="17" fill="#1e293b" stroke="#818cf8" stroke-width="1" opacity="0.85"/>
+    <circle cx="78" cy="242" r="4" fill="#818cf8"/>
+    <text x="90" y="246" fill="#e2e8f0" class="pill-badge">200 OK • OpenAPI</text>
+  </g>
+
+  <!-- Floating Dynamic API Nodes Right -->
+  <g class="float-node" style="transform-origin: 1060px 120px; animation-delay: -1.5s;">
+    <rect x="990" y="80" width="140" height="34" rx="17" fill="#1e293b" stroke="#a855f7" stroke-width="1" opacity="0.85"/>
+    <circle cx="1008" cy="97" r="4" fill="#a855f7"/>
+    <text x="1020" y="101" fill="#e2e8f0" class="pill-badge">MCP • AI Agents</text>
+  </g>
+  <g class="float-node" style="transform-origin: 1070px 240px; animation-delay: -4.5s;">
+    <rect x="1005" y="225" width="135" height="34" rx="17" fill="#1e293b" stroke="#34d399" stroke-width="1" opacity="0.85"/>
+    <circle cx="1023" cy="242" r="4" fill="#34d399"/>
+    <text x="1035" y="246" fill="#e2e8f0" class="pill-badge">POST /graphql</text>
+  </g>
+
+  <!-- Center Foreground Content Container (High Contrast, Clean, Never Obstructed) -->
+  <g id="foreground-content">
+    <!-- Top Category Tag -->
+    <rect x="495" y="48" width="210" height="28" rx="14" fill="#0369a1" fill-opacity="0.3" stroke="#38bdf8" stroke-width="1"/>
+    <text x="600" y="66" text-anchor="middle" fill="#38bdf8" class="badge-icon">⚡ AWESOME PUBLIC DIRECTORY</text>
+
+    <!-- Main Title -->
+    <text x="600" y="140" text-anchor="middle" fill="url(#textGrad)" class="title-text">
+      Awesome Public API Marketplace
+    </text>
+
+    <!-- Subtitle / Mission -->
+    <text x="600" y="180" text-anchor="middle" class="subtitle-text">
+      The definitive directory of commercial API hubs, self-hosted portals, and open specifications
+    </text>
+
+    <!-- Stat/Highlight Badges Row -->
+    <g transform="translate(320, 222)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="170" height="36" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="85" y="22" text-anchor="middle" fill="#38bdf8" class="pill-badge">🌐 500K+ Public APIs</text>
+
+      <!-- Pill 2 -->
+      <rect x="190" y="0" width="175" height="36" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="277" y="22" text-anchor="middle" fill="#818cf8" class="pill-badge">📊 SaaS Hubs &amp; Portals</text>
+
+      <!-- Pill 3 -->
+      <rect x="385" y="0" width="175" height="36" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="472" y="22" text-anchor="middle" fill="#c084fc" class="pill-badge">🤖 AI &amp; MCP Blueprints</text>
+    </g>
+
+    <!-- Bottom Accent Border Line -->
+    <rect x="420" y="296" width="360" height="2" rx="1" fill="url(#textGrad)" opacity="0.6"/>
+  </g>
+</svg>
